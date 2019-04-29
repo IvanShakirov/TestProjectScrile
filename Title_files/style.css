@@ -1,0 +1,86 @@
+#tab{
+    font-family: Arial;
+    font-size: small;
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border : 1px solid #666666;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+#head{
+     font-weight: bold;
+    background-color: #4a4949;
+    color:white;
+    height: 30px;
+}
+#head span{
+    position: absolute;
+    margin: 6px 10px    ;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 96px;
+    border : 1px solid #d5d3d3;
+    border-radius: 7px;
+    margin: 12px ;
+    background-color: #ffffff;
+}
+#progress_bar {
+    position: relative;
+    width: 50%;
+    height: 12px;
+    background-color: #cecece  ;
+}
+
+#bar {
+    margin: 2px;
+    height: 8px;
+    width: 1%;
+    background-color: #0489d1;
+}
+#money p{/*КОСТЫЛЬ*/
+    margin-bottom: -2px;
+}
+#money{/*ЕГО ПРОДОЛЖЕНИЕ, Я ВООБЩЕ ХЗ КАК ЭТОТ ТРЕУГОЛЬНИК НЕ КАРТИНКОЙ ВСТАВИТЬ, а через бордер все плывет*/
+    position: absolute;
+    top :-5px;
+    text-align: right;
+    font-weight: bold;
+    color: #807e81;
+}
+
+#label_for_bar{
+    color: #4a4949;
+    font-weight: bold;
+}
+#a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+#indicator :last-child{
+    font-size: large;
+    border-top: 1px solid #666666;
+}
+#indicator{
+    background-color: #807e81;
+    color :white;
+    border: 1px solid #cecece ;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -10px;
+    height: 40px;
+    width: 18%;
+}
+#info{
+    display: flex;
+    color: #6f6e72;
+}
